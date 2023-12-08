@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-item{
+    margin-right: 13px;
+}
+.nav-link{
+    font-size: 25px;
+    color:#fafafa !important;
+}
+.text{
+    top: 45%;
+    left: 3%;
+    color: #fafafa;
+}
+.login{
+    width: 90px;
+    height: 40px;
+    margin-top: 5px;
+    border: 2px solid #fafafa;
+    background-color: inherit;
+    border-radius: 10px;
+}
+.text h2{
+    color: rgb(56, 202, 56);
+}
+.card{
+    height: 450px;
+    box-shadow: 2px 2px 8px gray;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.card p{
+    color: gray;
+}
+.card .btn{
+    background-color: #fafafa;
+    border: 2px solid gray;
+    color: gray;
+}
+
+@media(max-width: 575px){
+    nav{
+        background-color: red;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .text{
+        width: 95% !important;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .text{
+        width: 95%;
+    }
+}
